@@ -1,0 +1,133 @@
+body{
+	background: #99B2C7; /* fond de site */
+}
+
+header{
+	width: 85%;
+	vertical-align: center;
+	border: 10px solid #CCC;
+	border-radius: 10px;
+}
+
+#banniere{
+	background-image: url("banniere.png");
+	background-color: white;
+	height: 240px;
+	width: 1200px;
+	margin: auto;
+}
+
+</body>
+
+h1{
+	color: red; /* couleur du texte */
+	font-size: 25px; /* taille du texte */ 
+}
+
+h2{
+	color: black; /* couleur du texte */
+	font-size: 20px; /* taille du texte */ 
+}
+
+p{
+	color: black;
+	font-size: 15px;
+	text-align: justify;
+}
+
+h3{
+	color: blue; /* couleur du texte */
+	font-size: 15px; /* taille du texte */ 
+}
+
+img{
+	width:500px;
+	height:250px;
+}
+
+#nav {
+	padding: 0; margin: 0; /* espace entre la marge du haut et le menu */
+	text-align: center; /*centre le texte */
+}
+
+#nav li {
+	display: inline; 
+	list-style: none; /* nécéssaire pour IE7 */
+}
+
+#nav a {
+	display: inline-block; 
+	margin: 10 40 10 40px;
+	background: #99B2C7; /* couleur de fond */
+	width: 120px; 
+	text-decoration: none; /* pas d'héritage avec effet souligné */
+	color: Black; /* couleur du texte */ 
+	height: 30px; /* hauteur */
+	line-height: 3 50 3 50px /* interligne */
+	padding: 0 50px; /* marges intérieur */
+	font-family: sans-serif; /* police d'écriture */
+	font-size: 25px; /* taille du texte */
+}
+
+#nav a:hover{background:white;} /* fond en passant la souris sur accueil, activité et illustration */
+
+table {
+	border : 3px solid black;
+}
+
+th{
+	/*border:  2px solid red*/;
+	background-color: grey;
+	height: 45px;
+	border: ridge 1.5px;
+	color: black;
+
+}
+
+caption{
+	font-size: 30px;
+	color: black;
+	text-decoration: underline;
+	padding-bottom: 10px;
+}
+
+#interv{
+	background-color: yellow;
+}
+
+#tel{
+	background-color: greenyellow;
+}
+
+td  {
+	border : 2px dotted black;
+	background: white;
+}
+
+footer{ 
+	background: black;
+	width: 90%;
+	justify-content: center;
+	display: flex;
+	padding: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.snap{ 
+	width: 5%;
+	height: 5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#C42{
+	font-size: 25px;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+
+.logo{
+	color: white;
+}
